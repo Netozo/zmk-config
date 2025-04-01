@@ -47,7 +47,7 @@
 
         print {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <15 27>;
+            key-positions = <16 28>;
         };
     };
 
@@ -73,7 +73,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
